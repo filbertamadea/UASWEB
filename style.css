@@ -1,0 +1,253 @@
+@import "https://fonts.googleapis.com/css?family=Baloo+Tamma+2:300,400,500,600,700";
+
+body {
+    font-family: "Baloo Tamma 2", cursive;
+}
+section {
+    min-height: 420px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------------ Navbar --------------*/
+.navbar{
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 0.2rem;
+background:black !important;
+}
+.nav-link {
+    border: 2px solid transparent;
+}
+.nav-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f3b509;
+    transition: 0.5s ease;
+}
+
+/*------------------- Jumbotron -------------*/
+.jumbotron{
+    color: white;
+    height: 500px;
+}
+
+/* ------------------ Contact --------------*/
+#Contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+.contact-form{
+    flex: 1;
+    margin: 30px 50px;
+}
+.contact-form h2{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-form .text-box{
+    background:#fff;
+    color:rgb(24, 23, 23);
+    border-color: black;
+    border-width: 4px;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+.contact-form textarea{
+    background:#fff;
+    color:rgb(24, 23, 23);
+    border-color: black;
+    border-width: 4px;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form .send-btn .clr-btn {
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.contact-form .send-btn{
+    float: right;
+}
+
+.clr-btn{
+    float:left
+}
+
+.contact-form .send-btn:hover .clr-btn:hover{
+    background: #0582E3;
+}
+@media screen and (max-width: 950px){
+.contact-section{
+    flex-direction: column;
+}
+.contact-form h2{
+    font-size: 30px;
+}
+.contact-form .text-box{
+    width: 100%;
+}
+}
+
+/* ------------------ Footer --------------*/
+#footer {
+    padding: 10px 0 20px;
+    background: black;
+}
+.social-links {
+    text-align: center;
+}
+
+.social-links .fa {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: ipx solid #009688;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social-links .fa:hover {
+    background: #009688;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.social-links p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.nameContainer {
+    color: cornsilk;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nameRow {
+    flex: 50%;
+}
+
+.nameRow1 {
+    text-align: center;
+    color: cornsilk;
+}
+.Contenthome h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Baloo Tamma 2";
+}
+.Contenthome img{
+    max-width: 30%;
+    max-height: 30%;
+}
+.Contenthome p{
+    display: flex;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-right: 10%;
+}
+.linev{
+    display: inline-block;
+    border-left: 5px solid black;
+    margin-left: 5%;
+    height: 125px;
+}
+.linev h1{
+    padding-left: 50px;
+    font-size: 70px;
+    margin-top: -10px;
+    font-family: "Baloo Tamma 2";
+}
+
+.pwdwd{
+    margin-top: 1.5%;
+    font-family: "Baloo Tamma 2";
+    font-size: 30px;
+}
+.pwdw{
+    font-family: "Baloo Tamma 2";
+    font-size: 30px;
+}
+.linevv{
+    display: inline-block;
+    border-left: 5px solid black;
+    margin-left: 5%;
+    height: 200px;
+}
+.linevv h1{
+    padding-left: 50px;
+    font-size: 70px;
+    margin-top: -10px;
+    font-family: "Baloo Tamma 2";
+}
+.news2 img{
+    margin-right: 10%;
+    max-width: 50%;
+}
+
+.ordernow h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.ordernow1 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.imgorder{
+    max-width: 80%;
+    max-height: 80%;
+}
